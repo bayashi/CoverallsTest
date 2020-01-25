@@ -12,6 +12,8 @@ sub new {
     bless $args, $class;
 }
 
+sub foo { 1 }
+
 1;
 
 __END__

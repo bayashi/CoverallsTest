@@ -4,6 +4,7 @@ requires 'perl', '5.008005';
 requires 'strict';
 requires 'warnings';
 requires 'Carp';
+requires 'Devel::Cover::Report::Coveralls';
 
 on 'test' => sub {
     requires 'Test::More', '0.88';
@@ -20,8 +21,4 @@ on 'develop' => sub {
     requires 'Test::Perl::Critic';
     requires 'Test::Pod::Coverage';
     requires 'Test::Pod';
-    requires 'Test::NoTabs';
-    requires 'Test::Perl::Metrics::Lite';
-    requires 'Test::Vars';
-    requires 'Test::File::Find::Rule';
 };
