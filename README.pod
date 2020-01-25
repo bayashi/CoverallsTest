@@ -1,0 +1,50 @@
+=encoding utf8
+
+
+This is Perl module B<CoverallsTest>.
+
+=begin html
+
+<a href="https://github.com/bayashi/CoverallsTest/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Artistic%202.0-GREEN.png"></a> <a href="https://github.com/bayashi/CoverallsTest/actions"><img src="https://github.com/bayashi/CoverallsTest/workflows/build/badge.svg?branch=master"/></a> <a href="https://coveralls.io/r/bayashi/CoverallsTest"><img src="https://coveralls.io/repos/bayashi/CoverallsTest/badge.png?branch=master"/></a>
+
+=end html
+
+
+=head1 INSTALLATION
+
+CoverallsTest installation is straightforward. If your CPAN shell is set up,
+you should just be able to do
+
+    % cpan CoverallsTest
+
+Download it, unpack it, then build it as per the usual:
+
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+
+=head1 DOCUMENTATION
+
+CoverallsTest documentation is available as in POD. So you can do:
+
+    % perldoc CoverallsTest
+
+
+=head1 REPOSITORY
+
+CoverallsTest is hosted on github
+L<http://github.com/bayashi/CoverallsTest>
+
+
+=head1 LICENSE
+
+C<CoverallsTest> is free software; you can redistribute it and/or modify it under the terms of the Artistic License 2.0. (Note that, unlike the Artistic License 1.0, version 2.0 is GPL compatible by itself, hence there is no benefit to having an Artistic 2.0 / GPL disjunction.) See the file LICENSE for details.
+
+
+=head1 AUTHOR
+
+Dai Okabayashi E<lt>bayashi@cpan.orgE<gt>
