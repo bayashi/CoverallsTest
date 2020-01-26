@@ -14,6 +14,10 @@ sub new {
 
 sub foo { 1 }
 
+sub bar { 1 }
+
+sub baz { 1 }
+
 1;
 
 __END__
