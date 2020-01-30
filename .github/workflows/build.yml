@@ -34,6 +34,10 @@ jobs:
       - name: Install Cover
         run: curl -sL https://git.io/cpm | perl - install -g --show-build-log-on-failure Devel::Cover::Report::Coveralls
         if: matrix.perl-version == 'latest'
+      - name: Show Env
+        run: |
+            echo $HOME
+            echo $GITHUB_WORKFLOW
       - name: Run tests
         run: perl Build.PL && ./Build build
       - name: Run Cover
