@@ -38,6 +38,10 @@ jobs:
         run: |
             echo $HOME
             echo $GITHUB_WORKFLOW
+            echo $GITHUB_SHA
+            echo $GITHUB_REF
+            git log -1 --pretty=format:'%s'
+            git branch
       - name: Run tests
         run: perl Build.PL && ./Build build
       - name: Run Cover
