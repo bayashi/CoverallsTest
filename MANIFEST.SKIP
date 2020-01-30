@@ -31,3 +31,4 @@
 ^META\.yml$
 ^CoverallsTest-*^MYMETA\.yml$
 ^MYMETA\.json$
+^MYMETA\.yml$
