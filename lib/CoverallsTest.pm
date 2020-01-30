@@ -43,7 +43,7 @@ CoverallsTest is
 
 =begin html
 
-<a href="https://github.com/bayashi/CoverallsTest/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Artistic%202.0-GREEN.png"></a> <a href="https://github.com/bayashi/CoverallsTest/actions"><img src="https://github.com/bayashi/CoverallsTest/workflows/build/badge.svg?_t=1580406470&branch=master"/></a> <a href="https://coveralls.io/r/bayashi/CoverallsTest"><img src="https://coveralls.io/repos/bayashi/CoverallsTest/badge.png?_t=1580406470&branch=master"/></a>
+<a href="https://github.com/bayashi/CoverallsTest/blob/master/LICENSE"><img src="https://img.shields.io/badge/LICENSE-Artistic%202.0-GREEN.png"></a> <a href="https://github.com/bayashi/CoverallsTest/actions"><img src="https://github.com/bayashi/CoverallsTest/workflows/build/badge.svg?_t=1580406895&branch=master"/></a> <a href="https://coveralls.io/r/bayashi/CoverallsTest"><img src="https://coveralls.io/repos/bayashi/CoverallsTest/badge.png?_t=1580406895&branch=master"/></a>
 
 =end html
 
